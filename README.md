@@ -1,10 +1,10 @@
 # Bothy Theme for Micro.blog
 
-![Bothy Theme for Micro.blog Logo](https://github.com/MattSLangford/Sumo-Theme/blob/main/screenshot_new.png?raw=true)
+![Bothy Theme for Micro.blog Logo](https://git.sr.ht/~matthewlang/bothy/tree/e9ee0847d88348c4f099c48a3c3d9144d7e5dbad/item/screenshot.png)
 
 ### Description
 
-Sumo Theme is developed for use with the Micro.blog platform. It is designed to be as fast as possible while still supporting all features of the platform and popular plugins. It is easy to customize, offering full support for Microhooks.
+The Bothy theme is intended to be used with the Micro.blog platform.
 
 **Demo and Docs**: bothy.micro.blog
 
