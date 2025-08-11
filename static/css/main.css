@@ -792,6 +792,7 @@ pre code {
 
 .category-header {
   border-bottom: 1px solid var(--border-color);
+  padding-bottom: var(--spacing-lg);
 }
 
 .category-header h2 {
