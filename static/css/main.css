@@ -787,6 +787,24 @@ pre code {
 }
 
 /* ============================
+   CATEGORY HEADER
+   ============================ */
+
+.category-header {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.category-header h2 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.category-header p {
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--secondary-color);
+}
+
+/* ============================
    MICRO.BLOG CONVERSATION
    ============================ */
 .microblog_conversation {
