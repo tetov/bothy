@@ -3,6 +3,40 @@
    ============================ */
 :root {
   --font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --base-font-size: 18px;
+
+  /* Default heading sizes (relative to base font size) */
+  --h1-size: calc(var(--base-font-size) * 2.2);
+  --h2-size: calc(var(--base-font-size) * 1.8);
+  --h3-size: calc(var(--base-font-size) * 1.4);
+  --h4-size: calc(var(--base-font-size) * 1);
+  --h5-size: calc(var(--base-font-size) * 0.85);
+  --h6-size: calc(var(--base-font-size) * 0.75);
+
+  h1 {
+    font-size: var(--h1-size);
+    line-height: 1.2;
+  }
+  h2 {
+    font-size: var(--h2-size);
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: var(--h3-size);
+    line-height: 1.3;
+  }
+  h4 {
+    font-size: var(--h4-size);
+    line-height: 1.4;
+  }
+  h5 {
+    font-size: var(--h5-size);
+    line-height: 1.4;
+  }
+  h6 {
+    font-size: var(--h6-size);
+    line-height: 1.4;
+  }
 
   --spacing-xs: 0.125rem;
   --spacing-sm: 0.5rem;
@@ -184,7 +218,7 @@ body {
   background-color: var(--background-color);
   color: var(--primary-color);
   font-family: var(--font-family);
-  font-size: 18px;
+  font-size: var(--base-font-size);
   line-height: 1.6;
   margin: 0 auto;
   max-width: 700px;
@@ -907,7 +941,7 @@ pre code {
    ============================ */
 @media (max-width: 768px) {
   body {
-    font-size: 20px;
+    font-size: calc(var(--base-font-size) * 1.11);
     padding: var(--spacing-md);
   }
 
@@ -924,7 +958,7 @@ pre code {
 
 @media (max-width: 480px) {
   body {
-    font-size: 16px;
+    font-size: calc(var(--base-font-size) * 0.89);
     padding: var(--spacing-md);
   }
 
